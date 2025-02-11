@@ -22,12 +22,11 @@ class Employee extends Person {
     }
 }
 
-const person1 = new Person("Alice", 25);
-person1.greet(); 
+const person = new Person("Alice", 25);
+person.greet(); 
 
-const employee1 = new Employee("Bob", 24, "General Manager");
-employee1.greet();
-employee1.jobGreet();
+const employee = new Employee("Bob", 24, "General Manager");
+employee.jobGreet();
 
 
 // Do not change code below this line
