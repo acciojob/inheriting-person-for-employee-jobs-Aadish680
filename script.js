@@ -7,7 +7,7 @@ class Person {
     }
 
     greet() {
-        return `Hello, my name is ${this.n}, I am ${this.a} years old`;
+        return `Hello, my name is ${this.n} and I am ${this.a} years old`;
     }
 }
 
@@ -18,7 +18,7 @@ class Employee extends Person {
     }
 
     jobGreet() {
-        return`Hello, my name is ${this.n}, I am ${this.a} years old, and my job title is ${this.job}`;
+        return`Hello, my name is ${this.n} and I am ${this.a} years old, and my job title is ${this.job}`;
     }
 }
 
