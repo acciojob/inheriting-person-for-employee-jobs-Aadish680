@@ -2,23 +2,23 @@
 
 class Person {
     constructor(name, age) {
-        this.n = name;
-        this.a = age;
+        this.name = name;
+        this.age = age;
     }
 
     greet() {
-        return `Hello, my name is ${this.n} and I am ${this.a} years old`;
+        return `Hello, my name is ${this.name} and I am ${this.age} years old`;
     }
 }
 
 class Employee extends Person {
     constructor(name, age, jobTitle) {
         super(name, age); 
-        this.job = jobTitle;
+        this.jobTitle = jobTitle;
     }
 
     jobGreet() {
-        return`Hello, my name is ${this.n} and I am ${this.a} years old, and my job title is ${this.job}`;
+        return`Hello, my name is ${this.name},I am ${this.age} years old, and my job title is ${this.jobTitle}`;
     }
 }
 
