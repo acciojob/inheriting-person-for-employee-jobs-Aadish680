@@ -22,6 +22,12 @@ class Employee extends Person {
     }
 }
 
+const person1 = new Person("Alice", 25);
+person1.greet(); 
+
+const employee1 = new Employee("Bob", 24, Manager);
+employee1.greet();
+employee1.jobGreet();
 
 
 // Do not change code below this line
